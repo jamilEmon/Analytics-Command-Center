@@ -74,6 +74,7 @@ graph TD
     E --> K[StatusFunnel.tsx];
     E --> L[ClientTable.tsx];
     E --> M[ChatBot.tsx];
+<img width="3600" height="1724" alt="image" src="https://github.com/user-attachments/assets/8c36a42a-c9c3-4ae3-8c41-263230da8f1d" />
 
 
 
