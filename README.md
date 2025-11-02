@@ -62,18 +62,6 @@ The application follows a component-based architecture, with a clear separation 
 
 This diagram illustrates the flow of data and control within the application, from the entry point to the individual components that make up the dashboard.
 graph TD
-    A[main.tsx] --> B(App.tsx);
-    B --> C{ThemeProvider};
-    C --> D[ThemeToggle.tsx];
-    C --> E[Dashboard.tsx];
-    E --> F(googleSheets.ts);
-    F --> G[Google Sheet];
-    E --> H[KPICard.tsx];
-    E --> I[RevenueChart.tsx];
-    E --> J[HeadshotsChart.tsx];
-    E --> K[StatusFunnel.tsx];
-    E --> L[ClientTable.tsx];
-    E --> M[ChatBot.tsx];
 <img width="3600" height="1724" alt="image" src="https://github.com/user-attachments/assets/8c36a42a-c9c3-4ae3-8c41-263230da8f1d" />
 
 
